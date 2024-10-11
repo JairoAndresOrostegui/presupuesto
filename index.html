@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto del Proyecto</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+            text-align: left;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Presupuesto del Proyecto</h2>
+    <table>
+        <tr>
+            <th>Rubro</th>
+            <th>Cant.</th>
+            <th>Unidad</th>
+            <th>Valor</th>
+            <th>Total</th>
+            <th>Responsable del Gasto</th>
+        </tr>
+
+        <!-- Recursos Humanos -->
+        <tr>
+            <td colspan="6" style="text-align:center; font-weight: bold;">RECURSOS HUMANOS</td>
+        </tr>
+        <tr>
+            <td>Desarrollador Backend</td>
+            <td>4</td>
+            <td>Meses</td>
+            <td>$2.500.000</td>
+            <td>$10.000.000</td>
+            <td>Investigador</td>
+        </tr>
+        <tr>
+            <td>Desarrollador Frontend</td>
+            <td>4</td>
+            <td>Meses</td>
+            <td>$2.000.000</td>
+            <td>$8.000.000</td>
+            <td>Investigador</td>
+        </tr>
+        <tr>
+            <td>Diseñador Gráfico</td>
+            <td>2</td>
+            <td>Meses</td>
+            <td>$1.800.000</td>
+            <td>$3.600.000</td>
+            <td>Investigador</td>
+        </tr>
+        <tr>
+            <td>Tester</td>
+            <td>2</td>
+            <td>Meses</td>
+            <td>$1.500.000</td>
+            <td>$3.000.000</td>
+            <td>Investigador</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">TOTAL RECURSOS HUMANOS</td>
+            <td>$24.600.000</td>
+            <td></td>
+        </tr>
+
+        <!-- Software y Equipos Tecnológicos -->
+        <tr>
+            <td colspan="6" style="text-align:center; font-weight: bold;">SOFTWARE Y EQUIPOS TECNOLÓGICOS</td>
+        </tr>
+        <tr>
+            <td>Compra de Laptop</td>
+            <td>1</td>
+            <td>Unidad</td>
+            <td>$3.500.000</td>
+            <td>$3.500.000</td>
+            <td>Investigador</td>
+        </tr>
+        <tr>
+            <td>Licencia de Software (Windows)</td>
+            <td>1</td>
+            <td>Año</td>
+            <td>$300.000</td>
+            <td>$300.000</td>
+            <td>Investigador</td>
+        </tr>
+        <tr>
+            <td>Servidor para pruebas</td>
+            <td>4</td>
+            <td>Meses</td>
+            <td>$150.000</td>
+            <td>$600.000</td>
+            <td>Investigador</td>
+        </tr>
+        <tr>
+            <td>Alquiler de cámara para material audiovisual</td>
+            <td>3</td>
+            <td>Meses</td>
+            <td>$120.000</td>
+            <td>$360.000</td>
+            <td>Investigador</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">TOTAL SOFTWARE Y EQUIPOS TECNOLÓGICOS</td>
+            <td>$4.760.000</td>
+            <td></td>
+        </tr>
+
+        <!-- Materiales -->
+        <tr>
+            <td colspan="6" style="text-align:center; font-weight: bold;">MATERIALES</td>
+        </tr>
+        <tr>
+            <td>Resma de papel</td>
+            <td>2</td>
+            <td>Resma</td>
+            <td>$10.000</td>
+            <td>$20.000</td>
+            <td>Investigador</td>
+        </tr>
+        <tr>
+            <td>Impresiones</td>
+            <td>500</td>
+            <td>Hojas</td>
+            <td>$200</td>
+            <td>$100.000</td>
+            <td>Investigador</td>
+        </tr>
+        <tr>
+            <td>Lápices y marcadores</td>
+            <td>10</td>
+            <td>Unidades</td>
+            <td>$1.500</td>
+            <td>$15.000</td>
+            <td>Investigador</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">TOTAL MATERIALES</td>
+            <td>$135.000</td>
+            <td></td>
+        </tr>
+
+        <!-- Otros -->
+        <tr>
+            <td colspan="6" style="text-align:center; font-weight: bold;">OTROS</td>
+        </tr>
+        <tr>
+            <td>Transporte local</td>
+            <td>15</td>
+            <td>Viajes</td>
+            <td>$10.000</td>
+            <td>$150.000</td>
+            <td>Investigador</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">TOTAL OTROS</td>
+            <td>$150.000</td>
+            <td></td>
+        </tr>
+
+        <!-- Totales -->
+        <tr>
+            <td colspan="4" style="font-weight: bold;">SUBTOTAL PRESUPUESTO</td>
+            <td>$29.645.000</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">IMPUESTOS 10%</td>
+            <td>$2.964.500</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">TOTAL PRESUPUESTO</td>
+            <td>$32.609.500</td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
